@@ -10,6 +10,10 @@
 ];
 
 // your code here
+foods.forEach(function(foo){
+	console.log(foo.name, "is", foo.level, "delicious");
+
+});
 
 // The output should be
 // > Pizza is very delicious
